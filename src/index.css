@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-geometric-grid {
+    background-color: #050505;
+    background-image: radial-gradient(#222222 1px, transparent 1px);
+    background-size: 30px 30px;
+  }
+}
+
+/* Custom scrollbars for geometric balance theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
